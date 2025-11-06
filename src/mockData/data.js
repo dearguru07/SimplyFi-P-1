@@ -16,9 +16,9 @@ export default function AvatarGallery() {
   }, []); 
 
   return (
-    <div style={{ textAlign: "center", padding: "20px" }}>
+    <div className="inner-img" style={{ textAlign: "center", padding: "20px" }}>
 
-      <div
+      <div className="logo-img"
         style={{
           display: "flex",
           justifyContent: "center",
@@ -33,7 +33,7 @@ export default function AvatarGallery() {
               border: "1px solid #ddd",
               borderRadius: "12px",
               padding: "10px",
-              width: "150px",
+              width: "120px",
               background: "#fafafa",
               boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
             }}
